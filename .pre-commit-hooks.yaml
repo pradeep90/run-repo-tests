@@ -1,6 +1,6 @@
 -   id: pradeep-run-tests
     name: Run tests
     description: Verify that tests pass.
-    entry: echo foo bar
+    entry: run-python-test-files.sh
     language: system
     files: '.*_test\.py'
