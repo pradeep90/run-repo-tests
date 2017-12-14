@@ -8,7 +8,7 @@ Use it with [pre-commit](http://pre-commit.com/) by putting this in `.pre-commit
 -   repo: git://github.com/pradeep90/run-repo-tests
     sha: v0.1
     hooks:
-    -   id: pradeep-run-tests
+    -   id: run-python-tests
 ```
 
 Currently runs only Python tests (in `_test.py` files that have a main function).
