@@ -3,3 +3,4 @@
     description: Verify that tests pass.
     entry: echo foo bar
     language: system
+    files: '*_test.py'
