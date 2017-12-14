@@ -1,0 +1,5 @@
+repos:
+-   repo: .
+    sha: 229a525
+    hooks:
+    -   id: pradeep-run-tests
