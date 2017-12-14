@@ -1,10 +1,12 @@
 # Hook to run tests during pre-commit
 
-This is a hook to run all tests in your repository. Use it with [pre-commit](http://pre-commit.com/) by putting this in `.pre-commit-config.yaml`:
+This is a hook to run all tests in your repository, (Currently, it supports only Python tests.)
+
+Use it with [pre-commit](http://pre-commit.com/) by putting this in `.pre-commit-config.yaml`:
 
 ```yaml
--   repo: /home/pradeep/Dropbox/Programs/Python/pre-commit-run-tests/
-    sha: 7ca9ef7
+-   repo: git://github.com/pradeep90/run-repo-tests
+    sha: v0.1
     hooks:
     -   id: pradeep-run-tests
 ```
