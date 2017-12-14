@@ -1,6 +1,6 @@
--   id: pradeep-run-tests
-    name: Run tests
-    description: Verify that tests pass.
+-   id: run-python-tests
+    name: Run Python tests
+    description: Verify that Python tests pass. Files must be executable.
     entry: run-python-test-files.sh
     language: script
     files: '.*_test\.py'
