@@ -11,6 +11,7 @@ class SumTest(unittest.TestCase):
 
     def test_foo(self):
         self.assertEqual(2 + 2, 5)
+        self.assertEqual(2 + 2, 6)
 
 if __name__ == '__main__':
     unittest.main()

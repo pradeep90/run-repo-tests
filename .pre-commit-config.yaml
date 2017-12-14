@@ -1,5 +1,5 @@
 repos:
--   repo: .
+-   repo: /home/pradeep/Dropbox/Programs/Python/pre-commit-run-tests/
     sha: 229a525
     hooks:
     -   id: pradeep-run-tests
