@@ -2,5 +2,5 @@
     name: Run tests
     description: Verify that tests pass.
     entry: run-python-test-files.sh
-    language: system
+    language: script
     files: '.*_test\.py'
