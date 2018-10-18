@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Run Python test files. Assume they are executable.
+# Run Python test files.
 for file in $@; do
     echo $file
-    $file
+    python $file
 done
